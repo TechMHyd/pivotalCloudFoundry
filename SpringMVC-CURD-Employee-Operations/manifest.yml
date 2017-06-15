@@ -1,0 +1,9 @@
+---
+applications:
+- name: SpringMVC-CURD-Operations
+  memory: 512M
+  host: SpringMVC-CURD-Operations
+  domain: cfapps.io
+  buildpack: java_buildpack
+  services:
+  - employeeDB
